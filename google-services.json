@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "787868352976",
+    "project_id": "fondazione-oz",
+    "storage_bucket": "fondazione-oz.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787868352976:android:dc6ec237e4c774d0a139d5",
+        "android_client_info": {
+          "package_name": "com.fondazione_oz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787868352976-dgss2c83usdf3pdk14sj1lllm38ih0gf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkeUNEWKBpdzqdUidBKHU1-xedrqrVQqM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787868352976-dgss2c83usdf3pdk14sj1lllm38ih0gf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

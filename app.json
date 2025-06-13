@@ -1,0 +1,61 @@
+{
+  "expo": {
+    "name": "Fondazione Oz",
+    "slug": "fondazione_oz",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 60000,
+      "url": "https://u.expo.dev/31dc8f84-3031-4a74-b607-49c9d5fc22c8"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "softwareKeyboardLayoutMode": "pan",
+      "googleServicesFile": "./google-services.json",
+      "package": "com.to_working.fondazione_oz",
+      "runtimeVersion": "1.0.0"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-asset",
+       [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ],
+    
+    "extra": {
+      "eas": {
+        "projectId": "31dc8f84-3031-4a74-b607-49c9d5fc22c8"
+      },
+      "googleWebClientId": "787868352976-jb48df7orqpilo44tsp52s41v581u2u8.apps.googleusercontent.com",
+  "googleAndroidClientId": "787868352976-a3n8mk4q6c7rss5ho7t8afo94b6bt1m1.apps.googleusercontent.com"
+
+    },
+    "scheme":"fondazione-oz",
+    "runtimeVersion": "1.0.0"
+    
+  }
+}
