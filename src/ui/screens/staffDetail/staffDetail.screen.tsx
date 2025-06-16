@@ -57,7 +57,7 @@ const handleGoBack = () => {
 
   return (
      <SafeAreaView style={styles.container}>
-      <TopBar onBack={() => handleGoBack()} onRefresh={()=> fetchUserProfile} />
+      <TopBar onBack={() => handleGoBack()} onRefresh={()=> fetchUserProfile(userId)} />
       
       {loading ? (
         <View style={styles.loadingContainer}>

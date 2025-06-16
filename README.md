@@ -37,5 +37,3 @@ apply plugin: 'com.google.gms.google-services'
 
 per integrazione calendario
 npm i react-native-big-calendar
-
-agg
